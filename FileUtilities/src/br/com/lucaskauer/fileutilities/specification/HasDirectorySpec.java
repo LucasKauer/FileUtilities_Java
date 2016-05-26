@@ -20,7 +20,7 @@ public class HasDirectorySpec implements BaseSpecification<File>{
 
 	@Override
 	public boolean isSatisfactoryFor(File file) {
-		return file.exists() && file.isDirectory();
+		return file.isDirectory() && file.exists();
 	}
 
 }

@@ -5,4 +5,6 @@ public interface IFileService {
 	void write(String path, String fileName, String... content);
 	
 	String reader(String path);
+	
+	boolean delete(String path);
 }
